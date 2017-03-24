@@ -1,0 +1,21 @@
+{
+    "name": "loadbalancer",
+    "version": "1.0.0",
+    "main": "loadbalancer.js",
+    "scripts": {
+        "start": "node --harmony loadbalancer.js"
+    },
+    "keywords": [
+        "koa",
+        "async"
+    ],
+    "author": "Gary Lai",
+    "license": "Apache-2.0",
+    "dependencies": {
+        "express": "4.15.2",
+        "superagent": "3.5.2",
+        "body-parser": "1.17.1",
+        "redis": "2.7.1"
+    }
+   
+}
